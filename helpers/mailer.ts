@@ -1,9 +1,6 @@
 import User from "@/Models/userModel";
 import nodemailer from "nodemailer";
 import bcryptjs from "bcryptjs";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 interface Props {
   email: string;
